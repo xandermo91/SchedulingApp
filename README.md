@@ -1,2 +1,6 @@
 # SchedulingApp
-This project is a scheduling application made as a university project.
+This project is a scheduling application made as a university project. This application is an excellent demonstration of my skills in Java, manipulating an SQL database, JavaFX, compensating for time zones, using a login screen, translation for other locales, and overall organization for a fairly simple application. I was able to complete this project in less than three weeks.
+
+The application first opens to an alert to let the user know if the user has an appointment coming up in 15 minutes. Then when the user presses the OK button, the login screen shows. The username and password is the same word: test. This will then open the main screen where you can then add, modify, or delete customers and appointments. The information in the application is taken from an online SQL database. When new customers or appointments are made, or when the existing ones are modified, the program is automatically modifying the information in the database.
+
+The program reads the location and timezone of the computer and, if the computer is in France, it will automatically translate the buttons and prompts in French. There is a line in the main source file that will change the locale to France, but it is commented out for now. To see the this change, just uncomment that line.
